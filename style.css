@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-color: #212121;
+    color: #fff;
+    font-family: 'Cinzel', serif;
+
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+    /* top: 30% ; */
+    /* left: 50% ; */
+}
+
+.heading h1{
+    display: flex;
+    margin: 50px 0px;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.button {
+    width: 100px;
+    height: auto;
+    padding : 10px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+}
+
+#blue{
+    background-color: blue;
+    color: white;
+}
+#yellow{
+    background-color: yellow;
+    color: white;
+}
+#green{
+    background-color: green;
+    color: white;
+}
+#orange{
+    background-color: orange;
+    color: white;
+}
+#purple{
+    background-color: purple;
+    color: white;
+}
+#red{
+    background-color: red;
+    color: white;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 38px;
+}
